@@ -49,6 +49,7 @@ android {
 }
 
 dependencies {
+    implementation project(':domain')
 
     implementation "androidx.activity:activity-compose:$activityComposeVersion"
     implementation platform("androidx.compose:compose-bom:$composeBomVersion")
