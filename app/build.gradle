@@ -67,7 +67,6 @@ dependencies {
     testImplementation "junit:junit:$junitVersion"
 
     androidTestImplementation "androidx.test.ext:junit:$extJunitVersion"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
     androidTestImplementation platform("androidx.compose:compose-bom:$composeBomVersion")
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
 
